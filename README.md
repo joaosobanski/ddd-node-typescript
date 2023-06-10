@@ -13,11 +13,12 @@ O DDD busca alinhar a arquitetura de software com o domínio do problema, visand
 
 Existem várias opções de software que são adequadas para estudar e aplicar o Domain-Driven Design (DDD). Aqui estão algumas sugestões:
 
-ASP.NET Core: É um framework da Microsoft para desenvolvimento de aplicativos web e APIs.
-Spring Boot: É um framework para desenvolvimento de aplicativos Java.
-Laravel: É um framework de desenvolvimento web em PHP.
-Ruby on Rails: É um framework para desenvolvimento web em Ruby.
-Node.js: É uma plataforma JavaScript voltada para o desenvolvimento de aplicações de rede.
+ 1. ASP.NET Core: É um framework da Microsoft para desenvolvimento de aplicativos web e APIs. 
+ 2. Spring Boot: É um framework para desenvolvimento de aplicativos Java
+ 3. Laravel: É um framework de desenvolvimento web em PHP. 
+ 4. Ruby on Rails: É um framework para desenvolvimento web em Ruby. 
+ 5. Node.js: É uma plataforma JavaScript voltada para o desenvolvimento de aplicações de rede. 
+
 Além dessas opções, é importante ressaltar que o DDD é uma abordagem de design de software que pode ser aplicada em qualquer linguagem de programação ou framework. O mais importante é entender os princípios e conceitos do DDD e aplicá-los de forma consistente no desenvolvimento do software, independentemente da tecnologia utilizada.
 
 Um site de marketplace pode ser um bom cenário para aplicar a arquitetura de Domain-Driven Design (DDD). O DDD pode ajudar a lidar com a complexidade inerente a um marketplace, permitindo uma melhor organização e modelagem dos diferentes domínios envolvidos. Ao projetar um marketplace com DDD, você pode identificar diferentes contextos delimitados, como o contexto do usuário, produtos, pedidos, pagamentos, avaliações, entre outros. Cada contexto pode ser tratado como um domínio separado, com seus próprios modelos, serviços e regras de negócio.
