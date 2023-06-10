@@ -38,5 +38,10 @@ Ao projetar um marketplace com DDD, você pode identificar diferentes contextos 
 - [Nest js Docs](https://docs.nestjs.com) – A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
 - [Type orm Docs](https://typeorm.io) – Object–relational mapping, in computer science is a programming technique for converting data between a relational database and the heap of an object-oriented programming language. This creates, in effect, a virtual object database that can be used from within the programming language.
 
+# Outras referencias úteis
+- [DevMedia](https://www.devmedia.com.br/foco-ao-negocio-com-ddd-revista-engenharia-de-software-magazine-45/23566) – Foco ao negócio com DDD - Revista Engenharia de Software Magazine 45
+
+
+
 
 
