@@ -27,3 +27,16 @@ Um site de marketplace pode ser um bom cenário para aplicar a arquitetura de Do
 Ao projetar um marketplace com DDD, você pode identificar diferentes contextos delimitados, como o contexto do usuário, produtos, pedidos, pagamentos, avaliações, entre outros. Cada contexto pode ser tratado como um domínio separado, com seus próprios modelos, serviços e regras de negócio.
 
 É importante ressaltar que a arquitetura de software não é restrita apenas a um tipo específico de aplicativo, e o DDD pode ser aplicado em diversos contextos. No caso de um marketplace, o DDD pode ajudar a lidar com a complexidade do domínio e permitir um design mais modular e escalável.
+
+# Primeiras referencias para o estudo
+- [Microsoft Link 1](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) – Design a DDD-oriented microservice.
+- [Microsoft Link 2](https://learn.microsoft.com/en-us/azure/architecture/microservices/model/tactical-ddd) – Using tactical DDD to design microservices.
+- [Microsoft Link 3](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design) – Best Practice - An Introduction To Domain-Driven Design.
+
+
+# Referencias para o estudo em Node.js
+- [Nest js Docs](https://docs.nestjs.com) – A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
+- [Type orm Docs](https://typeorm.io) – Object–relational mapping, in computer science is a programming technique for converting data between a relational database and the heap of an object-oriented programming language. This creates, in effect, a virtual object database that can be used from within the programming language.
+
+
+
