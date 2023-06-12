@@ -2,7 +2,7 @@ import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { UsersController } from './app/controller/user.controller';
+import { UsersController } from './app/controller/usuarios/usuario.controller';
 import { AuthMiddleware } from './infra/auth/auth.middleware';
 import { UsersModule } from './infra/ioc.module/users.module'
 import Config from './infra/typeorm.config';
