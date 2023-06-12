@@ -1,10 +1,10 @@
-import { Injectable, HttpStatus } from '@nestjs/common';
+import { Injectable, HttpStatus, HttpException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { UsuarioAlterarSenhaDTO } from 'src/app/dto/usuarios/usuario-alterar-senha.dto';
 import { UsersDTO } from 'src/app/dto/usuarios/usuario.dto';
 import { UsersEntity } from 'src/infra/entity/users.entity';
 import { Repository } from 'typeorm';
-import { User } from '../interface/user.interface';
+import { User } from '../../interface/user.interface';
 
 @Injectable()
 export class UsersService {
@@ -24,12 +24,12 @@ export class UsersService {
     }
 
     async updateUsuario(data: UsuarioAlterarSenhaDTO, id: number): Promise<UsersEntity> {
-        await this.usersRepository.createQueryBuilder()
-            .update(UsersEntity)
-            .set(data)
-            .where({ id })
-            .execute();
-        return await this.encontrarPorId(id)
+        const exists = await this.usersRepository.exist({ where: { id } })
+        if (!exists)
+            throw new HttpException("Usuário não encontrado!", HttpStatus.BAD_REQUEST);
+
+        await this.usersRepository.update({ id }, data);
+        return await this.encontrarPorId(id);
     }
 
     async encontrarPorEmail(email: string): Promise<User> {

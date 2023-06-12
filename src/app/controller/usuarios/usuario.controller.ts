@@ -4,6 +4,7 @@ import {
     Post,
     Patch,
     Delete,
+    NestMiddleware,
     Body,
     Param,
     HttpStatus,
@@ -13,7 +14,7 @@ import {
 
 import { ApiTags } from '@nestjs/swagger'
 import { UsuarioAlterarSenhaDTO } from 'src/app/dto/usuarios/usuario-alterar-senha.dto';
-import { UsersService } from 'src/domain/service/user.service';
+import { UsersService } from 'src/domain/service/usuarios/user.service';
 import { UsersEntity } from 'src/infra/entity/users.entity';
 import { UsersDTO } from '../../dto/usuarios/usuario.dto';
 

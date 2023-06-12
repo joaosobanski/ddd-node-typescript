@@ -6,7 +6,7 @@ import {
 } from '@nestjs/common';
 
 import { ApiTags, ApiResponse, ApiCreatedResponse } from '@nestjs/swagger'
-import { UsersService } from 'src/domain/service/user.service';
+import { UsersService } from 'src/domain/service/usuarios/user.service';
 import { UsersEntity } from 'src/infra/entity/users.entity';
 
 @ApiTags('usuarios')
